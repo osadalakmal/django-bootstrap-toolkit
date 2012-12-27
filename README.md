@@ -17,6 +17,20 @@ Alternatively, you can add `django-bootstrap-toolkit` to your requirements.txt.
 
 If you want to hack django-bootstrap itself, clone this repo and call `pip install -e .`.
 
+Configuration
+-------------
+* Configuration setting are set in the django settings.py file. The various settings are
+
+        1. BOOTSTRAP_BASE_URL - Base url for bootstrap assets. Defaults to 'http://twitter.github.com/bootstrap/assets/'
+
+        2. BOOTSTRAP_JS_BASE_URL - Url for JS assets for bootstrap. Defaults to BOOTSTRAP_BASE_URL + 'js/'
+
+        3. BOOTSTRAP_JS_URL - *Not sure what this is for yet*. Defaults to BOOTSTRAP_JS_BASE_URL
+
+        4. BOOTSTRAP_CSS_BASE_URL - Base url for CSS assets. Defaults to BOOTSTRAP_BASE_URL + 'css/'
+   
+        5. BOOTSTRAP_CSS_URL = Url for CSS assets. Defaults to BOOTSTRAP_CSS_BASE_URL + 'bootstrap.css'
+
 Use in templates
 ----------------
 
